@@ -34,8 +34,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/views/Home.html"
-                            target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/views/Home.html"><i
+                                class="fa-solid fa-house"></i>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!"><i class="fa-solid fa-address-card"></i>About</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/kontak/contact.html" target="_blank"><i
@@ -61,6 +61,46 @@
         <div class="row">
             <!-- Blog entries-->
             <div class="col-lg-8">
+                <div class="form-group">
+                    <label>Jump to a point in the index:</label>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-3">
+                            <select id="aspect_artifactbrowser_ConfigurableBrowse_field_year"
+                                class="ds-select-field form-control" name="year">
+                                <option value="-1">(Choose year)</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2005">2005</option>
+                                <option value="2000">2000</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-7 col-sm-6">
+                            <div class="input-group">
+                                <input id="aspect_artifactbrowser_ConfigurableBrowse_field_starts_with"
+                                    class="ds-text-field form-control" placeholder="Or type in a year: "
+                                    name="starts_with" type="text" value=""
+                                    title="Browse for items that are from the given year."><span
+                                    class="input-group-btn"><button
+                                        id="aspect_artifactbrowser_ConfigurableBrowse_field_submit"
+                                        class="ds-button-field btn btn-default" name="submit"
+                                        type="submit">Go</button></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- Featured blog post-->
                 <div class="mb-4">
                     <!-- <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a> -->
@@ -73,6 +113,7 @@
                         <!-- <a class="btn btn-primary" href="#!">Read more →</a> -->
                     </div>
                 </div>
+
                 <div class="mb-4">
                     <!-- <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a> -->
                     <div class="card-body">
@@ -133,11 +174,11 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="/views/collection.html">Dokument</a></li>
-                                    <li><a href="/views/byIssueDate.html"> Date</a></li>
-                                    <li><a href="/views/byTitles.html">Judul</a></li>
-                                    <li><a href="/views/Themes.html">Tema</a></li>
-                                    <li><a href="/views/byAuthors.html">Penulis</a></li>
+                                    <li><a href="/views/dokument.html">Dokument</a></li>
+                                    <li><a href="/views/tahun.html"> Date</a></li>
+                                    <li><a href="/views/judul.html">Judul</a></li>
+                                    <li><a href="/views/tema.html">Tema</a></li>
+                                    <li><a href="/views/penulis.html">Penulis</a></li>
                                 </ul>
                             </div>
 
@@ -212,6 +253,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container">
