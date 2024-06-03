@@ -8,6 +8,7 @@
     <meta name="author" content="" />
     <title>STMIK Repository</title>
     <!-- Favicon-->
+
     <link rel="icon" type="image/x-icon" href="/assets/iconSTMIK.png" />
     <link href="/css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -24,6 +25,9 @@
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
+            <!-- <div class="image-container">
+                <img src="/image/logoSTMIK.png" alt="logo amik" width="5%" height="5%">
+            </div> -->
             <img src="/image/logoSTMIK.png" alt="logo amik" width="5%" height="5%">
             <a class="navbar-brand" href="https://ayokuliah.id/universitas/amik-pgri-kebumen/">
                 <b> STMIK
@@ -34,15 +38,16 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/views/Home.html"
-                            target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!"><i class="fa-solid fa-address-card"></i>About</a>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/views/Home.html"><i
+                                class="fa-solid fa-house"></i>Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!"><i class="fa-solid fa-address-card"></i>Tentang
+                            Kami</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/kontak/contact.html" target="_blank"><i
-                                class="fa-solid fa-phone"></i>Contact Me</a>
+                                class="fa-solid fa-phone"></i>Hubungi Kami</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/Login/login.html"><i
-                                class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                                class="fa-solid fa-right-to-bracket"></i>Masuk</a></li>
                 </ul>
             </div>
         </div>
@@ -51,7 +56,7 @@
     <header class="py-5  border-bottom mb-4">
         <div class="container">
             <div class="text-center my-5">
-                <h1 class="fw-bolder"> Selamat Datang Di <br> STMIK PGRI Arungbinang Repository</h1>
+                <h1 class="fw-bolder"> Repositori <br> STMIK PGRI Arungbinang Kebumen</h1>
                 <p class="lead mb-0"></p>
             </div>
         </div>
@@ -61,75 +66,323 @@
         <div class="row">
             <!-- Blog entries-->
             <div class="col-lg-8">
-                <div class="trail-wrapper hidden-print">
-                    <div class="container">
-                        <div class="row">
-                            <div class="breadcrumb dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#"
-                                    id="trail-dropdown-toggle">Browsing by Title&nbsp;<b class="caret"></b></a>
-                                <ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
-                                    <li role="presentation">
-                                        <a role="menuitem" href="/"><i aria-hidden="true"
-                                                class="glyphicon glyphicon-home"></i>&nbsp;
-                                            IPB Repository</a>
-                                    </li>
-                                    <li role="presentation" class="disabled">
-                                        <a href="#" role="menuitem">Browsing by Title</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <ul class="breadcrumb">
-                                <li>
-                                    <i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
-                                    <a href="/">IPB Repository</a>
-                                </li>
-                                <li class="active">Browsing by Title</li>
-                            </ul>
-                        </div>
-                    </div>
+                <!-- <div class="breadcrumb dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#"
+                        id="trail-dropdown-toggle">Browsing by Title&nbsp;<b class="caret"></b></a>
+                    <ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
+                        <li role="presentation">
+                            <a role="menuitem" href="/"><i aria-hidden="true"
+                                    class="glyphicon glyphicon-home"></i>&nbsp;
+                                IPB Repository</a>
+                        </li>
+                        <li role="presentation" class="disabled">
+                            <a href="#" role="menuitem">Browsing by Title</a>
+                        </li>
+                    </ul>
                 </div>
+                <ul class="breadcrumb">
+                    <li>
+                        <i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                        <a href="/">IPB Repository</a>
+                    </li>
+                    <li class="active">Browsing by Title</li>
+                </ul>
             </div>
             <div class="hidden" id="no-js-warning-wrapper">
                 <div id="no-js-warning">
                     <div class="notice failure">JavaScript is disabled for your browser. Some features of this site
                         may not work without it.</div>
                 </div>
-            </div>
-            <div class="container" id="main-container">
-                <form>
-                    <fieldset disabled>
-                        <legend>Disabled fieldset example</legend>
-                        <div class="mb-3">
-                            <label for="disabledTextInput" class="form-label">Disabled input</label>
-                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                        </div>
-                        <div class="mb-3">
-                            <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                            <select id="disabledSelect" class="form-select">
-                                <option>Disabled select</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                                <label class="form-check-label" for="disabledFieldsetCheck">
-                                    Can't check this
-                                </label>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </fieldset>
+            </div> -->
+                <h2 class="ds-div-head page-header first-page-header">Browsing by Title </h2>
+                <form id="aspect_artifactbrowser_ConfigurableBrowse_div_browse-navigation"
+                    class="ds-interactive-div secondary navigation" action="browse" method="post"
+                    onsubmit="javascript:tSubmit(this);">
+                    <select class="ds-select-field form-control alphabet-select" name="alphabet">
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=0&amp;order=ASC">
+                            Cari Berdasarkan Huruf</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=A&amp;order=ASC">
+                            A</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=B&amp;order=ASC">
+                            B</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=C&amp;order=ASC">
+                            C</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=D&amp;order=ASC">
+                            D</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=E&amp;order=ASC">
+                            E</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=F&amp;order=ASC">
+                            F</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=G&amp;order=ASC">
+                            G</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=H&amp;order=ASC">
+                            H</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=I&amp;order=ASC">
+                            I</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=J&amp;order=ASC">
+                            J</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=K&amp;order=ASC">
+                            K</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=L&amp;order=ASC">
+                            L</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=M&amp;order=ASC">
+                            M</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=N&amp;order=ASC">
+                            N</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=O&amp;order=ASC">
+                            O</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=P&amp;order=ASC">
+                            P</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=Q&amp;order=ASC">
+                            Q</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=R&amp;order=ASC">
+                            R</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=S&amp;order=ASC">
+                            S</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=T&amp;order=ASC">
+                            T</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=U&amp;order=ASC">
+                            U</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=V&amp;order=ASC">
+                            V</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=W&amp;order=ASC">
+                            W</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=X&amp;order=ASC">
+                            X</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=Y&amp;order=ASC">
+                            Y</option>
+                        <option
+                            value="browse?rpp=20&amp;sort_by=1&amp;type=title&amp;etal=-1&amp;starts_with=Z&amp;order=ASC">
+                            Z</option>
+                    </select>
                 </form>
-                <!-- Footer-->
-                <footer class="py-5 bg-dark">
-                    <div class="container">
-                        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+                <div class="mb-4">
+                    <!-- <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a> -->
+                    <div class="card-body">
+                        <div class="small text-muted">January 1, 2023</div>
+                        <h2 class="card-title">Featured Post Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reiciendis
+                            aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+                            expedita corporis animi
+                            vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                        <!-- <a class="btn btn-primary" href="#!">Read more →</a> -->
                     </div>
-                </footer>
-                <!-- Bootstrap core JS-->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-                <!-- Core theme JS-->
-                <script src="js/scripts.js"></script>
+                </div>
+                <div class="mb-4">
+                    <!-- <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a> -->
+                    <div class="card-body">
+                        <div class="small text-muted">January 1, 2023</div>
+                        <h2 class="card-title">Featured Post Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reiciendis
+                            aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+                            expedita corporis animi
+                            vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                        <!-- <a class="btn btn-primary" href="#!">Read more →</a> -->
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <!-- <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a> -->
+                    <div class="card-body">
+                        <div class="small text-muted">January 1, 2023</div>
+                        <h2 class="card-title">Featured Post Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reiciendis
+                            aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+                            expedita corporis animi
+                            vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                        <!-- <a class="btn btn-primary" href="#!">Read more →</a> -->
+                    </div>
+                </div>
+
+
+                <!-- Nested row for non-featured blog posts-->
+
+                <!-- Pagination-->
+                <!-- <nav aria-label="Pagination">
+                    <hr class="my-0" />
+                    <ul class="pagination justify-content-center my-4">
+                        <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"
+                                aria-disabled="true">Newer</a></li>
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+
+                <!-- Search widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Pencarian</div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Enter search term..."
+                                aria-label="Enter search term..." aria-describedby="button-search" />
+                            <button class="btn btn-primary" id="button-search" type="button">Telusuri!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Categories widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Pilih</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a href="/views/dokumen.html">Dokumen</a></li>
+                                    <li><a href="/views/tahun.html"> Tahun</a></li>
+                                    <li><a href="/views/judul.html">Judul</a></li>
+                                    <li><a href="/views/tema.html">Tema</a></li>
+                                    <li><a href="/views/penulis.html">Penulis</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Side widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Tema</div>
+                    <div class="card-body text-decoration-none">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0 ">
+                                <li><a href="#!">Sosial</a></li>
+                                <li><a href="#!">Ekonomi</a></li>
+                                <li><a href="#!">Teknologi</a></li>
+                            </ul>
+                            <ul id="collapseExample" class="collapse list-unstyled mb-0 ">
+                                <li><a href="#!">Perbankan</a></li>
+                                <li><a href="#!">Agama</a></li>
+                                <li><a href="#!">Kesehatan</a></li>
+                            </ul>
+                            <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Lainya...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">Penulis</div>
+                    <div class="card-body text-decoration-none">
+                        <div class="col xs-6-sm-3">
+                            <ul class="list-unstyled mb-0 ">
+                                <li><a href="#!">Arif Setiawan (120)</a></li>
+                                <li><a href="#!">Rehan Sumarwan (125)</a></li>
+                                <li><a href="#!">Rendi Hadoko (150)</a></li>
+                                <li><a href="#!">panji Hadoko(125)</a></li>
+                                <li><a href="#!">Bani Hadoko(130)</a></li>
+                            </ul>
+                            <!-- <ul id="collapseExample" class="collapse list-unstyled mb-0 ">
+                                <li><a href="#!">Perbankan</a></li>
+                                <li><a href="#!">Agama</a></li>
+                                <li><a href="#!">Kesehatan</a></li> -->
+                            </ul>
+                            <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Lainya...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">Tahun</div>
+                    <div class="card-body text-decoration-none">
+                        <div class="col xs-6-sm-3">
+                            <ul class="list-unstyled mb-0 ">
+                                <li><a href="#!"> 2200 - 2919 (114496)</a></li>
+                                <li><a href="#!">2000 - 2020 (1345) </a></li>
+                            </ul>
+                            <!-- <ul id="collapseExample" class="collapse list-unstyled mb-0 ">
+                                <li><a href="#!">Perbankan</a></li>
+                                <li><a href="#!">Agama</a></li>
+                                <li><a href="#!">Kesehatan</a></li> -->
+                            </ul>
+                            <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Lainya...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <h3>Tentang Kami</h3>
+                <p>Repository Kampus menyediakan berbagai sumber daya akademik dan penelitian
+                    untuk mendukung kegiatan
+                    belajar mengajar.</p>
+                <p><br>&copy; 2024 Repository Kampus. All rights reserved.</p>
+            </div>
+            <div class="column">
+                <!-- <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Repository</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li> -->
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Hubungi Kami</h3>
+                <p>Email: info@kampus.ac.id</p>
+                <a href="http://wa.me/+6285218594567" class="whatsapp"><i class="fa-solid fa-phone">
+                        Hubungi Kami:
+                        +6285218594567</i></a>
+                <p>Jl. Cendrawasih No.27A, Tamansari, Tamanwinangun, Kec. Kebumen, Kabupaten
+                    Kebumen, Jawa Tengah 54313
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- untuk bagian form -->
+    <script> function tSubmit(form) {
+            var select = form.querySelector('select[name="alphabet"]');
+            var selectedOption = select.options[select.selectedIndex].value;
+            window.location.href = selectedOption; // Redirect to the URL specified in the option's value
+            return false; // Prevent default form submission
+        }
+    </script>
 </body>
 
 </html>
