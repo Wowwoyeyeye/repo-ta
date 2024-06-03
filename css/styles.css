@@ -10865,6 +10865,8 @@ textarea.form-control-lg {
   }
 }
 
+/* MY STYLE */
+
 .footer {
   background-color: #212529;
   padding: 20px 0;
@@ -10919,14 +10921,18 @@ textarea.form-control-lg {
       flex: 1 1 100%;
       max-width: 500px;
   }
+}
 
-  .ds-simple-list-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
 
-  .ds-simple-list {
-    color: white;
-  }
+
+.year {
+  display: flex;
+  float: left;
+}
+
+.cari {
+  position: relative;
+  bottom: 1.5rem;
+  margin: 1rem;
+}
+  
