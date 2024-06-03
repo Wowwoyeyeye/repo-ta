@@ -2512,7 +2512,10 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
+  background-color: #0080ff;
+  color: #fff;
 }
+
 .input-group > .form-control,
 .input-group > .form-select,
 .input-group > .form-floating {
@@ -2529,6 +2532,8 @@ textarea.form-control-lg {
 .input-group .btn {
   position: relative;
   z-index: 2;
+  background-color: #0080ff;
+  color: #fff;
 }
 .input-group .btn:focus {
   z-index: 5;
@@ -10861,10 +10866,10 @@ textarea.form-control-lg {
 }
 
 .footer {
-  background-color: #f8f8f8;
+  background-color: #212529;
   padding: 20px 0;
   text-align: center;
-  background-image: url(/image/bekgrond.jpg);
+  /* background-image: url(/image/bekgrond.jpg); */
   color: #fff;
 }
 
@@ -10915,3 +10920,13 @@ textarea.form-control-lg {
       max-width: 500px;
   }
 
+  .ds-simple-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .ds-simple-list {
+    color: white;
+  }
